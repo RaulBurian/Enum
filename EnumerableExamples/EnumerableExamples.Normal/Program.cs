@@ -5,12 +5,13 @@ using EnumerableExamples.Normal;
 // ReSharper disable PossibleMultipleEnumeration
 #endregion
 
-// foreach (var sieveEntry in EasyMyEnumerable.GetSieveUpTo(20))
-// {
-//     Console.WriteLine(sieveEntry);
-// }
 
-// EnumerableFlow.EnumerableFlowExample();
+foreach (var sieveEntry in EasyMyEnumerable.GetSieveUpTo(20))
+{
+    Console.WriteLine(sieveEntry);
+}
+
+EnumerableFlow.EnumerableFlowExample();
 
 string[] names = { "Mike", "Johnnatan", "Daniel", "Luke", "Freightman" };
 
