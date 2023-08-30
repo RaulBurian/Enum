@@ -1,6 +1,6 @@
 ﻿using EnumerableExamples.AsyncEnumerable;
 
-await foreach (var person in FileReader.ReadPeople())
+await foreach (var person in FileReader.ReadPeople().PrintPeople())
 {
     if (person.Score < 7)
     {
